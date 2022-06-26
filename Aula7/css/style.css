@@ -1,0 +1,9 @@
+body{
+    font-family: tahoma,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 1024px;
+    margin: auto;
+}
