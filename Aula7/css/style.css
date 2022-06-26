@@ -5,5 +5,31 @@ body{
 }
 #principal{
     width: 1024px;
-    margin: auto;
+    margin: 20px auto;
+}
+
+.cabeca{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: yellow;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px 0 0;
 }
