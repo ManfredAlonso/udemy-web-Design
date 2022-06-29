@@ -42,6 +42,11 @@ body{
     font-size: 13px;
     letter-spacing: 5px;
 }
+
+.header-nav a:hover{
+    color: white;
+    transition: 0.5s;
+}
 /*Main-Article*/
 .portfolio{
     padding: 50px 100px;
