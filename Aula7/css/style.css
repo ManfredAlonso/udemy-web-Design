@@ -104,3 +104,8 @@ body{
     text-align: center;
     font-weight: bold;
 }
+/*maps*/
+.maps{
+    width: 100%;
+    height: 450px;
+}
