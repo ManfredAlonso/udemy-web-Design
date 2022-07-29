@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo 2018</title>
+        <meta charset="utf-8">      
+          
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo 2018</h1>
+            
+            <form action="#">
+                <label for="txtUser">Usuario</label>
+                <input type="text" id="txtUser" name="user">
+                <br>
+                <br>
+                <label for="txtPass">senha</label>
+                <input type="password" name="pass" id="txtPass">
+                <br>
+                <button type="button" id="btn">enviar</button>
+            </form>
+        
+        </div>
+            
+        
+        <script>
+            (function(){
+                'use strict'
+                var $txtUser = document.getElementById('txtUser');
+                var $txtPass = document.getElementById('txtPass');
+                var $btn = document.getElementById('btn');
+
+                $btn.addEventListener('click',function(){
+                    alert('clicou no btn')
+
+                    if($txtUser.value==='' || $txtPass.value===''){
+                        alert('Usuario ou senha esta vazio')
+                        alert('porfavor preencha todos os campos')
+                    }
+                });
+
+            
+            
+            
+            })()
+        </script>
+                
+    </body>
+</html>
